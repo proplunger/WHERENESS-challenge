@@ -24,7 +24,7 @@ This project transforms **hand-drawn architectural sketches** into **realistic b
 
 ## 📥 Input Sketch (Example)
 
-<img src="examples\whereness assignment sketch.jpg" width="400"/>
+<img src="examples\whereness assignment sketch.png" width="400"/>
 
 ---
 
@@ -60,3 +60,40 @@ Rather than fine-tuning, this solution **strategically leverages pre-trained mod
 ## 🧾 Prompt Engineering Strategy
 
 ### ✅ Fixed Positive Prompt (internal):
+
+"clear sky, sunny day, architecture, FullHD, residential, photo realistic, hyperrealistic, super detailed, intricate, shadows, high dynamic range, reflecting window, raytracing"
+
+---
+
+## 📐 Input Processing Flow
+
+1. Sketch is resized and converted to grayscale.
+2. Canny edge detection generates an edge map.
+3. The map is passed to ControlNet to guide image generation.
+4. The model combines this map with fixed and additional prompts to output photo-realistic architectural images.
+
+---
+
+## 💻 Web Interface (Gradio)
+
+- Built with **Gradio Blocks** for modular and interactive design.
+- Upload your hand-drawn sketch.
+- Click `Generate` to view the AI-generated photorealistic building image.
+- Customize optional advanced settings: resolution, Canny thresholds, steps, seed, etc.
+
+### Screenshot:
+
+![Gradio UI](examples/ui_screenshot.png)
+
+---
+
+## 🎨 Example Results
+
+| Sketch Input             | AI Generated Output       |
+| ------------------------ | ------------------------- |
+| ![](examples/input1.jpg) | ![](examples/output1.jpg) |
+| ![](examples/input2.jpg) | ![](examples/output2.jpg) |
+
+> All images maintain **window count, structure fidelity**, and showcase **realistic lighting/materials**.
+
+---

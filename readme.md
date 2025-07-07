@@ -94,11 +94,11 @@ While `depth` maps were initially considered, they performed **poorly** due to:
 
 ## 🖼️ Example Inputs & Outputs
 
-| Input Sketch                     | Photorealistic Output               |
-| -------------------------------- | ----------------------------------- |
-| ![sketch1](examples\hm_1.jpg)    | ![output1](examples\hm_aigen_1.jpg) |
-| ![sketch2](examples\hm_1.jpg)    | ![output2](examples\hm_aigen_1.jpg) |
-| ![sketch3](examples/sketch3.png) | ![output3](examples/output3.png)    |
+| Input Sketch                                             | Photorealistic Output                                           |
+| -------------------------------------------------------- | --------------------------------------------------------------- |
+| ![sketch1](examples/whereness%20assignment%20sketch.png) | ![output1](examples/whereness%20assignment%20sketch-output.jpg) |
+| ![sketch2](examples/hm_1.jpg)                            | ![output2](examples/hm_aigen_1.jpg)                             |
+| ![sketch3](examples/hm_2.jpg)                            | ![output3](examples/hm_aigen_2.jpg)                             |
 
 ---
 

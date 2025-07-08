@@ -9,6 +9,16 @@ Turn your architectural sketches into **photo-realistic building renders** using
 🔗 [Click here to try the hosted app](https://your-gradio-link-here.com)  
 ⚠️ You can upload your own sketch and press **Generate** — no setup required.
 
+If the above link is unavailable use this (RECOMMENDED)
+Open this Colab link: https://colab.research.google.com/drive/1_K6b0bNIzNsQ_xdW8CtroH0wvy6wC8yM?usp=sharing
+
+1. Click **Runtime > Run All**
+2. Wait for the Gradio link (`https://xxxx.gradio.live`) to appear in the cell output.
+3. Click the link to open the app in a new tab.
+4. Upload your building sketch and click **Generate**.
+
+⏳ Note: It might take 1–2 minutes to load on first run.
+
 ---
 
 ## 🧠 Project Overview

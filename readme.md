@@ -6,7 +6,7 @@ Turn your architectural sketches into **photo-realistic building renders** using
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try the hosted app](https://your-gradio-link-here.com)  
+🔗 [Click here to try the hosted app](https://213555605939b8f100.gradio.live/)  
 ⚠️ You can upload your own sketch and press **Generate** — no setup required.
 
 If the above link is unavailable use this (RECOMMENDED)
